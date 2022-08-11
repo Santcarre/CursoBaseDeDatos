@@ -1,0 +1,42 @@
+---
+title: "prueba 1"
+date: '2022-08-11'
+output:
+  html_document:
+    toc: true # para tener una tabla de contenido
+    toc_depth: 3 #Niveles que tendra la tabla de contenido
+    toc_float: true #Tabla de contenido presente en el documento
+    collapsed: true #Presentar en nivel principal de la seccion del documento
+    smooth_scroll: true
+    theme: journal
+    highlight: kate
+    df_print: paged
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## ¿Qué es R?
+
+R es lenguaje o entorno de programación utilizado generalmente para hacer análisis estadísticos y visualización de datos, sin embargo, Con este lenguaje se pueden hacer cálculos matemáticos y matriciales.
+
+## Ventajas de R
+
+-Es de libre licencia, por lo tanto es gratuito y de código abierto.
+-Representa un ambiente de trabajo que permite hacer complements al código.
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
